@@ -1,6 +1,9 @@
 # AuthGG Online Users Counter
 Python Flask application for counting users, currently using your application.
 
+If you wanna use this, make sure to edit the variables to your requirements in the `FlaskApp.py` file.
+<br>
+Options are listed below.
 
 # Options
 
