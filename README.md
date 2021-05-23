@@ -1,7 +1,19 @@
 # AuthGG Online Users Counter
 Python Flask application for counting users, currently using your application.
 
-### Endpoints
+
+# Options
+
+| Option | Type | Description |
+| --- | --- | --- |
+| Timeout | Integer | Amount of seconds to go let the user go without sending a request, before the user will be counted as offline. |
+| AdminAPIKey | String | Not Auth.GG admin api key, just whatever you wanna use for the admin endpoint here. |
+| ReturnOnlineToPublic | Boolean | Whether or not to include the online user count in the response for the users to see. |
+| AllowManualDelete | Boolean | Whether or not to allow counting users as offline by sending a "DELETE" request. |
+| UseAuthGGAdmin | Boolean | Whether or not to use the Auth.GG feature implemented, that returns the online users details in the admin endpoint. |
+| AuthGGAdminAPIKey | String | Auth.GG Admin/Authorization key if UseAuthGGAdmin is set to True, not needed otherwise. |
+
+# Endpoints
 
 | Method  | Endpoint |
 | ------------- | -- |
